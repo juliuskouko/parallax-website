@@ -1,0 +1,127 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	color: white;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+}
+
+.first-container {
+	/*1*/
+	height: 95vh;
+	background-image: url(img/image1.jpg);
+	position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.heading {
+	position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.heading .border {
+	background-color: #111;
+    color: #fff;
+    padding: 20px;
+}
+.sections {
+	background-color: #f4f4f4;
+    color: #666;
+    text-align: center;
+    padding: 50px 80px;
+    display: block;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.second-container {
+  /*  border: 1px solid black;*/
+    height: 75vh;
+    background-image: url(img/image2.jpg);
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;*/
+}
+.head {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.section-two {
+    background-color: rgb(40,46,52);
+    color: rgb(221,221,221);
+    text-align: center;
+    padding: 50px 80px;
+    display: block;
+}
+.third-container {
+   /* border: 1px solid black;*/
+    height: 75vh;
+    background-image: url(img/image3.jpg);
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.section-three {
+     background-color: rgb(40,46,52);
+    color: rgb(221,221,221);
+    text-align: center;
+    padding: 50px 80px;
+    display: block;
+}
+.forth-container {
+    /*border: 1px solid black;*/
+    height: 95vh;
+    background-image: url(img/image1.jpg);
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
